@@ -23,8 +23,8 @@ CONTAINER_ID=""
 
 In the "scripts" folder there are the following scripts that work with a Cosmos DB container:
 - `data_load.py` loads values from the `ELECTRONIC_VEHICLE_POPULATION_DATA.csv` file
-- `data_query.py` queries values from the Electronic Vehicles data with a specific VIN
-- `data_delete.py` deletes values from the Electronic Vehicles data with a specific VIN
-- `data_update.py` updates values from the Electronic Vehicles data for a specicifc VIN
+- `data_query.py` queries values from the Electronic Vehicles data with a specific VIN (first 10 digits only)
+- `data_delete.py` deletes values from the Electronic Vehicles data with a specific VIN (first 10 digits only)
+- `data_update.py` updates values from the Electronic Vehicles data for a specicifc VIN (first 10 digits only)
 
 When fininished working with the data, I recommend deleting the database and container unless you wanted to do more with the sample values.
